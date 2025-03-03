@@ -21,6 +21,10 @@ Feature Types:
 73 aggregated features (TX+AGG) – Statistical properties derived from transaction graphs
 Our models are trained using the TX and TX+AGG features to identify illicit transactions with greater precision.
 
+
+<img width="429" alt="node classes" src="https://github.com/user-attachments/assets/6065a0c4-f460-4192-a3bc-c34f1a7b2031" />
+
+
 🛠 Implemented Models
 This repository includes multiple machine learning and deep learning models, each designed to improve fraud detection in cryptocurrency transactions.
 
@@ -85,15 +89,11 @@ Construct a graph representation of transactions.
 Train a GAT model with multi-head attention layers.
 Predict illicit transactions based on node embeddings.
 📊 Results & Performance Analysis
-Model	Precision	Recall	F1-Score	Accuracy
-Decision Tree + MLP	0.9165	0.8985	0.8812	0.9806
-Logistic Regression + MLP	0.9233	0.8913	0.8614	0.9795
-Random Forest + MLP (Tx)	0.9598	0.8816	0.8816	0.9786
-Random Forest + MLP (Tx+agg)	0.9388	0.8695	0.8097	0.9763
-DNN (Tx)	0.7189	0.6557	0.6557	0.9414
-DNN (Tx+agg)	0.7979	0.8207	0.8091	0.9622
-GAT	0.8169	0.7724	0.8169	0.9579
-GCN	0.8330	0.8710	0.9127	0.9127
+<img width="418" alt="result" src="https://github.com/user-attachments/assets/0d00fa7f-f909-4e05-8784-14697913828b" />
+
+![barplot](https://github.com/user-attachments/assets/bac0f8a5-3302-4eed-a3ca-c8033c2729fb)
+
+
 📌 Key Takeaways:
 
 Random Forest + MLP and GCN achieve the highest precision and recall.
